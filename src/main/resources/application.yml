@@ -1,7 +1,10 @@
 server:
-    port: 8090
+    port: 9999
     
 eureka:
+    server:
+        enableSelfPreservation: false
+        
     instance:
         hostname: localhost
     
