@@ -1,4 +1,4 @@
-package com.banck.registreservice;
+package com.banck.discovery;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
