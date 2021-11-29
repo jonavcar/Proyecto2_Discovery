@@ -1,12 +1,16 @@
 server:
     port: 9999
     
+spring:
+  application:
+      name: api-discovery
+      
 eureka:
     server:
         enableSelfPreservation: false
         
     instance:
-        hostname: localhost
+        hostname: api-discovery
     
     client:
         registerWithEureka: false
